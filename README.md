@@ -10,3 +10,5 @@ algo(7) => Birhtday cake candles (hackerRank)
 algo(8) => Grading students (hackerRank)
 algo(9) => Apple and oranges (hackerRank)
 algo(10) => Kangooro's jump (hackerRank)
+algo(11) => Between two sets (hackerRankp)
+PasswordGenerator => makes a 16 charachter password includes uppercases, lowercases, number and symbol randomly
