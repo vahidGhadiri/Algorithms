@@ -15,3 +15,5 @@ HackerRank(11) => Between two sets.
 PasswordGenerator => makes a 16 charachter password includes uppercases, lowercases, number and symbol randomly
 LinearSearch => o(n)
 bubbleSort => o(n^2)  
+insertionSort => o(n^2)
+mergeSort => o(nlogn)
