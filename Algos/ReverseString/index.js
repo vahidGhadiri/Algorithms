@@ -5,8 +5,27 @@
 
 
 //SOLUTION #1
+// const reverseString_1 = (str) => {
+//     return str.split("").reverse().join("")
+// }
+
+
+// SOLUTION #2
+
 const reverseString = (str) => {
-    return str.split("").reverse().join("")
+    let reversed = ""
+    //Classical For loop
+    // for (let i = 0; i < str.length; i++) {
+    //     reversed = str[i] + reversed
+    // }
+    //ES6 For loop
+    for (let char of str) {
+        reversed = char + reversed
+    }
+    return reversed
 }
 
+
 module.exports = reverseString
+
+
