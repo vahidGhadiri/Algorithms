@@ -1,6 +1,6 @@
 const reverseString = require("./index")
 
-describe("REVERSE_STRING FUNCTION", () => {
+describe("REVERSE_STRING ALGORITHM", () => {
 
     test("Reverse function should be defined", () => {
         expect(reverseString).toBeDefined()

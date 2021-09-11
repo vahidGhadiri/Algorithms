@@ -11,24 +11,24 @@
 
 
 // SOLUTION #2
-// const reverseString = (str) => {
-//     let reversed = ""
-//     //Classical For loop
-//     // for (let i = 0; i < str.length; i++) {
-//     //     reversed = str[i] + reversed
-//     // }
-//     //ES6 For loop
-//     for (let char of str) {
-//         reversed = char + reversed
-//     }
-//     return reversed
-// }
+const reverseString = (str) => {
+    let reversed = ""
+    //Classical For loop
+    // for (let i = 0; i < str.length; i++) {
+    //     reversed = str[i] + reversed
+    // }
+    //ES6 For loop
+    for (let char of str) {
+        reversed = char + reversed
+    }
+    return reversed
+}
 
 // SOLUTION #3
 // const reverseString = (str) => str.split("").reduce((reversed, char) =>
 //     char + reversed
 // , '')
 
-// module.exports = reverseString
+module.exports = reverseString
 
 
