@@ -8,14 +8,20 @@
 
 
 //Solution #1
+// const palindrome = (str) => {
+//     let result = ""
+//     for (let char of str) {
+//         result = char + result
+//     }
+//
+//     return result === str
+// }
+
+
 const palindrome = (str) => {
-    let result = ""
-    for (let char of str) {
-        result = char + result
-    }
-
-    return result === str
+    return str.split("").every((char, index) => {
+        return char === str[str.length - index - 1]
+    })
 }
-
 
 module.exports = palindrome
